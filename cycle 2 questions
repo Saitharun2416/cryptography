@@ -1,0 +1,33 @@
+1. Write a program for DES algorithm for decryption, the 16 keys (K1, K2, c, K16) are used
+in reverse order. Design a key-generation scheme with the appropriate shift schedule for
+the decryption process.
+
+2. Write a program for encryption in the cipher block chaining (CBC) mode using an
+algorithm stronger than DES. 3DES is a good candidate. Both of which follow from the
+definition of CBC. Which of the two would you choose:
+a. For security? b. For performance?
+
+3. Write a program for ECB, CBC, and CFB modes, the plaintext must be a sequence of
+one or more complete data blocks (or, for CFB mode, data segments). In other words, for
+these three modes, the total number of bits in the plaintext must be a positive multiple of
+the block (or segment) size. One common method of padding, if needed, consists of a 1
+bit followed by as few zero bits, possibly none, as are necessary to complete the final
+block. It is considered good practice for the sender to pad every message, including
+messages in which the final message block is already complete. What is the motivation
+for including a padding block when padding is not needed?
+
+4. Write a program for Encrypt and decrypt in cipher block chaining mode using one of the
+following ciphers: affine modulo 256, Hill modulo 256, S-DES, DES. Test data for S-
+DES using a binary initialization vector of 1010 1010. A binary plaintext of 0000 0001
+0010 0011 encrypted with a binary key of 01111 11101 should give a binary plaintext of
+1111 0100 0000 1011. Decryption should work correspondingly.
+
+5. Write a program for RSA system, the public key of a given user is e = 31, n = 3599. What
+is the private key of this user? Hint: First use trial-and-error to determine p and q; then
+use the extended Euclidean algorithm to find the multiplicative inverse of 31 modulo f(n).
+
+6. Write a program for Diffie-Hellman protocol, each participant selects a secret number x and
+sends the other participant ax mod q for some public number a. What would happen if the
+participants sent each other xa for some public number a instead? Give at least one method Alice
+and Bob could use to agree on a key. Can Eve break your system without finding the secret
+numbers? Can Eve find the secret numbers?
