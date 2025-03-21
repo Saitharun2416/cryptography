@@ -1,0 +1,22 @@
+1. Write a C program for Caesar cipher involves replacing each letter of the alphabet with the letter
+standing k places further down the alphabet, for k in the range 1 through 25.
+
+2. Write a C program for monoalphabetic substitution cipher maps a plaintext alphabet to a ciphertext
+alphabet, so that each letter of the plaintext alphabet maps to a single unique letter of the ciphertext
+alphabet.
+
+3. Write a C program for Playfair algorithm is based on the use of a 5 X 5 matrix of letters constructed
+using a keyword. Plaintext is encrypted two letters at a time using this matrix.
+
+4. a. Write a C program to Encrypt the message “meet me at the usual place at ten rather than eight
+oclock” using the Hill cipher with the key.
+9 4
+5 7
+a. Show your calculations and the result.
+b. Show the calculations for the corresponding decryption of the ciphertext to recover the original
+plaintext.
+
+5. Write a C program for one-time pad version of the Vigenère cipher. In this scheme, the key is a
+stream of random numbers between 0 and 26. For example, if the key is 3 19 5 . . . , then the first letter of
+plaintext is encrypted with a shift of 3 letters, the second with a shift of 19 letters, the third with a shift of 5
+letters, and so on.
